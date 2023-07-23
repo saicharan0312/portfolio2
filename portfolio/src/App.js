@@ -16,15 +16,15 @@ function App() {
     switch(pageName) {
       case "home":
         return <Home />
-      case "edu":
+      case "education":
         return <Education />
-      case "con":
+      case "contactme":
         return <Contact />
-      case "ski":
+      case "skills":
         return <Skills />
-      case "exp":
+      case "experience":
         return <Experience />
-      case "abt":
+      case "about":
       default:
         return <Home /> 
     }
@@ -33,6 +33,7 @@ function App() {
     <>
       <ManiNavigation 
         HandleClick = {HandleClick}
+        pageName = {pageName}
       />
       <Suspense>{renderSwitch(pageName)}</Suspense>
     </>
