@@ -25,6 +25,7 @@ function App() {
       case "experience":
         return <Experience />
       case "about":
+        return <Home />
       default:
         return <Home /> 
     }
