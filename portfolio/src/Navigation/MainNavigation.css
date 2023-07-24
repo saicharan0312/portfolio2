@@ -1,13 +1,14 @@
 .outer-div {
   position: fixed;
-  bottom: 0;
+  bottom: 15px;
   left: 0;
-  background-color: #eaedf0;
+  background-color: hsl(180, 4%, 73%);
   width: 100%;
   height: 4rem;
   padding: 0 1rem;
   display: inline-grid;
-  border-radius: 1.25rem 1.25rem 0 0;
+  z-index: 10;
+  border-radius: 2.25rem 2.25rem 2.25rem 2.25rem;
   transition: .4s;
 }
 
@@ -45,7 +46,7 @@ button {
   --first-color-alt: hsl(var(--hue), var(--sat), 36%);
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 8%, 35%);
-  --body-color: hsl(var(--hue), 100%, 99%);
+  --body-color: hsl(174deg 6.6% 60.54%);
   --container-color: #FFF;
 
   /*========== Font and typography ==========*/
@@ -78,7 +79,6 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -91,11 +91,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -196,12 +191,12 @@ img {
 /*Active link*/
 .active-link {
   position: relative;
-  color: var(--first-color);
+  color: white;
   transition: .3s;
-  border: 1px solid greenyellow;
-  border-radius: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
   padding: 10px;
-  background-color: antiquewhite;
+  background-color: black;
   height: auto;
   width: auto;
 }

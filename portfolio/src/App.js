@@ -31,13 +31,13 @@ function App() {
     }
   }
   return (
-    <>
+    <div>
+      <Suspense>{renderSwitch(pageName)}</Suspense>
       <ManiNavigation 
         HandleClick = {HandleClick}
         pageName = {pageName}
       />
-      <Suspense>{renderSwitch(pageName)}</Suspense>
-    </>
+    </div>
   );
 }
 
