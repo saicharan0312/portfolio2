@@ -1,5 +1,4 @@
 import React from 'react';
-import "./Scroll";
 import "./MainNavigation.css";
 
 function ManiNavigation(props) {

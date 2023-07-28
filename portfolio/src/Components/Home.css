@@ -33,9 +33,10 @@
 }
 
 .introduction {
-    padding: 100px;  
+    padding: 25px;  
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .intro-name {
@@ -57,6 +58,10 @@ h1 {
     font-weight: bold;
 }
 
+.p-width {
+    width: fit-content;
+}
+
 image {
     display: block;
     flex-wrap: wrap;
@@ -75,5 +80,10 @@ img {
 img:hover {
     border: 1px solid rgb(0, 0, 0);
     filter: drop-shadow(10px 10px 50px rgb(0, 0, 0));
+}
+
+.button-resume {
+    border: 1px solid green;
+    background-color: red;
 }
 
