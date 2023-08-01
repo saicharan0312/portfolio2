@@ -3,7 +3,9 @@
   bottom: 15px;
   left: 0;
   background-color: hsl(180, 4%, 73%);
-  width: 100%;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
   height: 4rem;
   padding: 0 1rem;
   display: inline-grid;
@@ -21,7 +23,7 @@
   display: grid;
 }
 
-button {
+.each-button {
   padding: 0;
   background: none;
   border: none;

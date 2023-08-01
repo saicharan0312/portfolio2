@@ -1,0 +1,33 @@
+.container {
+    background-color: hsl(180deg 4.35% 72.94%);
+    margin-top: 30px;
+    height: auto;
+    width: 84%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 20px;
+}
+
+.experience-button {
+    padding: 15px;
+    width: fit-content;
+    border: none;
+    background: none;
+}
+.header-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-button:hover {
+    padding: 17px;
+    width: fit-content;
+    border-bottom: 1px solid gray;
+    color: blue;
+}
+
+
+.experience-text {
+    color: red;
+}

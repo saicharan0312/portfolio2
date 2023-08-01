@@ -3,12 +3,11 @@ import "./MainNavigation.css";
 
 function ManiNavigation(props) {
   const pageNow = props.pageName;
-  console.log("pagenow", pageNow);
 
   return (
     <div className='outer-div'>
       <div className='inner-div'>
-        <button onClick={() => props.HandleClick("home")} className='botton-css'>
+        <button onClick={() => props.HandleClick("home")} className='botton-css each-button'>
           {pageNow === "home" ?
             <a href="#home" class="nav__link active-link">
               <i class='bx bx-home-alt nav__icon'></i>
@@ -21,7 +20,7 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("education")}>
+        <button onClick={() => props.HandleClick("education")} className='each-button'>
           {pageNow === "education" ?
             <a href="#home" class="nav__link active-link">
               <i class='bx bx-home-alt nav__icon'></i>
@@ -34,7 +33,7 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("about")} >
+        <button onClick={() => props.HandleClick("about")} className='each-button'>
           {pageNow === "about" ?
             <a href="#home" class="nav__link active-link">
               <i class='bx bx-home-alt nav__icon'></i>
@@ -46,7 +45,7 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("skills")} >
+        <button onClick={() => props.HandleClick("skills")} className='each-button'>
           {pageNow === "skills" ?
             <a href="#home" class="nav__link active-link">
               <i class='bx bx-home-alt nav__icon'></i>
@@ -58,7 +57,7 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("experience")}>
+        <button onClick={() => props.HandleClick("experience")} className='each-button'>
           {pageNow === "experience" ?
             <a href="#home" class="nav__link active-link">
               <i class='bx bx-home-alt nav__icon'></i>
@@ -70,7 +69,7 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("contactme")} >
+        <button onClick={() => props.HandleClick("contactme")} className='each-button'>
           {pageNow === "contactme" ?
             <a href="#home" class="nav__link active-link">
               <i class='bx bx-home-alt nav__icon'></i>

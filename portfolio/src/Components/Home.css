@@ -34,15 +34,23 @@
 
 .introduction {
     padding: 25px;  
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .intro-name {
-    width: 60%;
     left:auto;
 }
+
+@media screen and (min-width: 1024px) {
+    .intro-name {
+      width: 60%;
+    }
+  }
 
 .span-val{
     color: black;
@@ -68,7 +76,7 @@ image {
     justify-content: center;
 }
 
-img {
+.profile {
     height: 250px;
     width: 250px;
     border: 1px solid gray;
@@ -77,13 +85,76 @@ img {
     object-position: center;
 }
 
-img:hover {
-    border: 1px solid rgb(0, 0, 0);
+.profile:hover {
+    border: 1px solid rgb(239, 235, 235);
+    height: 260px;
+    width: 260px;
     filter: drop-shadow(10px 10px 50px rgb(0, 0, 0));
 }
 
-.button-resume {
-    border: 1px solid green;
-    background-color: red;
+/* .resume-icons {
+    width: 100%;
+    justify-content: space-evenly;
+    display: inline-flex;
+} */
+
+.resume-icons {
+    display: block;
 }
+
+@media screen and (min-width: 422px) {
+    /* .resume-icons {
+        display: block;
+    } */
+    .resume-icons {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-evenly;
+        display: inline-flex;
+        align-items: center;
+    }
+    .icons {
+        display: inline;
+        justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (max-width: 423px) {
+    /* .resume-icons {
+        display: block;
+    } */
+    .button-resume {
+        margin-top: 20px;
+    }
+    .icons {
+        display: inline;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+  }
+
+.button-resume {
+    border: 1px solid hsl(176, 52%, 26%);
+    background-color: black;
+    color: hsl(176, 52%, 26%);
+    padding: 20px;
+    font-family: sans-serif, Arial;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.icons {
+    width: 100%;
+    display: inline-flex;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 6.5px;
+    border: 1px solid green;
+}
+
 

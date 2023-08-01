@@ -11,15 +11,20 @@ function Home() {
         <h1> Sai Charan Reddy </h1>
         <br></br>
         <p className='p-width'>A passionate Full Stack developer & Graduate Student who loves to build web & android apps and enhance products. I’m also a chess player and Street Photographer ! I live in Orlnado, FL</p>
-        <div>
-          <button className='button-resume'>Resume</button>
+        <div className='resume-icons'>
           <div>
-          
+            <button className='button-resume'>Resume</button>
+          </div>
+          <div className='icons'>
+            <img className='icon' src='https://img.icons8.com/?size=512&id=xuvGCOXi8Wyg&format=png' alt='linkedin'/>
+            <img className='icon' src='https://img.icons8.com/?size=512&id=62856&format=png' alt='github'/>
+            <img className='icon' src='https://img.icons8.com/?size=512&id=wDGo581Ea5Nf&format=png' alt='leetcode'/>
+            <img className='icon' src='https://img.icons8.com/?size=512&id=Xy10Jcu1L2Su&format=png' alt='instagram'/>
           </div>
         </div>
       </div>
       <div className='image'>
-        <img src={imageAdd2} alt='profile' />
+        <img className='profile' src={imageAdd2} alt='profile' />
       </div>
     </div>
   )
