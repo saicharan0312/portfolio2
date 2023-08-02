@@ -11,7 +11,6 @@ function App() {
   const HandleClick = (presentPage) => {
     setPageName(presentPage)
   }
-  console.log("page", pageName);
   const renderSwitch = (pageName) => {
     switch(pageName) {
       case "home":

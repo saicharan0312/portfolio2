@@ -1,0 +1,65 @@
+[
+    {
+      "name" : "University of Central Florida",
+      "company" : "University of Central Florida",
+      "title": "Graduate Teaching Assistant",
+      "tech" : "Teaching labs",
+      "link" : "https://www.ucf.edu/",
+      "date" : "Jan 22 - Jun 23",
+      "location" : "Orlando, Florida, USA",
+      "organization": "Computer Science, University of Central Florida",
+      "liveUrl": "https://www.cs.ucf.edu/",
+      "duration": "January 2022 - June 2023",
+      "description": [
+        "COP5021 (Program Analysis) & CNT 4703C (Design and Implementation of Computer Communication Networks)",
+        "COT4210 (Discrete Structures II)",
+        "CNT 3004 – (Computer Network Concepts)",
+        "COT3100 Introduction to Discrete Computational Structures",
+        "COT4210 (Discrete Computational Structures II)",
+        "Track students with their coursework, projects, and assignments, Assist the professors in teaching all the labs to the students.",
+        "Assist the professor with lesson plans, instruct small groups of students, supervise students in the classroom."
+      ],
+      "logo": "UCF_LOGO"
+    },
+    {
+      "name" : "phenom",
+      "company" : "Phenompeople",
+      "title": "Software Engineer",
+      "tech" : "ReactJs & React-native",
+      "date" :"Sept 20 - Dec 21",
+      "link" : "https://www.ucf.edu/",
+      "location" : "Hyderebad, India",
+      "organization": "Phenom People Pvt.Ltd",
+      "liveUrl": "https://www.phenom.com/",
+      "duration": "September 2020 - December 2021",
+      "description": [
+        "Designed, developed and modified rich UI of 12+ custom components utilizing React JS, HTML/SCSS , React Redux, React Thunks.",
+        "Developed and maintained 30+ REST APIs writing documentation using openAPI specification and Postman app to verify while developing.",
+        "Used 10+ node package manager for backend development such as Express, mongoose, mongo.js, body-parser, brcypt.js and validation.",
+        "Analyzed project flow, data usage, and work processes, examine 100% of problem areas and fixed bugs.",
+        "Executed & written 200+ unit tests, test Driven Deployments (TDD) to ensure 100% of code with SDLC was without bugs.",
+        "Planned, tracked and managed deliverables on 50+ short-term long-term sprints and deployments.",
+        "Suggested 5+ improvements to product design, functionally and optimize code by 10% as informed by client's request.",
+        "Development of company´s internal CI system, providing a comprehensive API for CI/CD."
+      ],
+      "logo": "PHENOMPEOPLE_LOGO"
+    },
+    {
+      "name" : "opentext",
+      "company" : "Opentext",
+      "title": "Software Engineer Intern",
+      "tech" : "ReactJs & React-native",
+      "date" :"Jan 20 - Aug 20",
+      "link" : "https://www.ucf.edu/",
+      "location" : "Hyderebad, India",
+      "organization": "Opentext Hyderebad",
+      "liveUrl": "https://www.opentext.com/",
+      "duration": "January 2020 - August 2020",
+      "description": [
+        "Built responsive 10+ web pages and components for company internal purpose using HTML5, JavaScript, ReactJS, Vue.Js and SCSS compiled using yarn build tools.",
+        "Worked in agile environment with weekly stand-ups, kept track of user stories/bugs in GitHub projects information. This process allowed to production to increase by 10% speed and code reduces by 15%.",
+        "written unit tests in Jest for React components. This made production of 100% bug free."
+      ],
+      "logo": "OPENTEXT_LOGO"
+    }
+  ]

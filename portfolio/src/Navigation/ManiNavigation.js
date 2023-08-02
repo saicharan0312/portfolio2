@@ -9,12 +9,12 @@ function ManiNavigation(props) {
       <div className='inner-div'>
         <button onClick={() => props.HandleClick("home")} className='botton-css each-button'>
           {pageNow === "home" ?
-            <a href="#home" class="nav__link active-link">
+            <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">Home</span>
             </a>
             :
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">Home</span>
             </a>
@@ -22,12 +22,12 @@ function ManiNavigation(props) {
         </button>
         <button onClick={() => props.HandleClick("education")} className='each-button'>
           {pageNow === "education" ?
-            <a href="#home" class="nav__link active-link">
+            <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">Education</span>
             </a>
             :
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">Education</span>
             </a>
@@ -35,11 +35,11 @@ function ManiNavigation(props) {
         </button>
         <button onClick={() => props.HandleClick("about")} className='each-button'>
           {pageNow === "about" ?
-            <a href="#home" class="nav__link active-link">
+            <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">About</span>
             </a> :
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">About</span>
             </a>
@@ -47,11 +47,11 @@ function ManiNavigation(props) {
         </button>
         <button onClick={() => props.HandleClick("skills")} className='each-button'>
           {pageNow === "skills" ?
-            <a href="#home" class="nav__link active-link">
+            <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">Skills</span>
             </a> :
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">Skills</span>
             </a>
@@ -59,11 +59,11 @@ function ManiNavigation(props) {
         </button>
         <button onClick={() => props.HandleClick("experience")} className='each-button'>
           {pageNow === "experience" ?
-            <a href="#home" class="nav__link active-link">
+            <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">experience</span>
             </a> :
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">experience</span>
             </a>
@@ -71,11 +71,11 @@ function ManiNavigation(props) {
         </button>
         <button onClick={() => props.HandleClick("contactme")} className='each-button'>
           {pageNow === "contactme" ?
-            <a href="#home" class="nav__link active-link">
+            <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">contactme</span>
             </a> :
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
               <span class="nav__name">contactme</span>
             </a>

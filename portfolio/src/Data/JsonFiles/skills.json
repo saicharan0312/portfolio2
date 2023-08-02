@@ -1,0 +1,69 @@
+[
+    {
+        "name" : "programming",
+        "list" : [
+            "https://img.icons8.com/?size=512&id=40670&format=png", 
+            "https://img.icons8.com/?size=512&id=40669&format=png", 
+            "https://img.icons8.com/?size=512&id=13679&format=png", 
+            "https://img.icons8.com/?size=512&id=55251&format=png",
+            "https://img.icons8.com/?size=512&id=13441&format=png",
+            "https://img.icons8.com/color/144/000000/javascript.png",
+            "https://img.icons8.com/color/144/000000/typescript.png",
+            "https://img.icons8.com/color/144/000000/html-5--v1.png"
+        ]
+    },
+    {
+        "name" : "frameworks",
+        "list" : [
+            "https://img.icons8.com/color/144/000000/react-native.png", 
+            "https://i.ibb.co/7NfB2rt/rn2.png",
+            "https://img.icons8.com/color/144/000000/redux.png", 
+            "https://img.icons8.com/?size=512&id=71257&format=png" ,
+            "https://img.icons8.com/color/144/000000/npm.png", 
+            "https://img.icons8.com/color/144/000000/nodejs.png",
+            "https://i.ibb.co/9smDM6j/pngegg.png", 
+            "https://img.icons8.com/?size=512&id=mUBILbYvUMq8&format=png", 
+            "https://img.icons8.com/?size=512&id=eETV3RNHVrWA&format=png", 
+            "https://img.icons8.com/?size=512&id=40253&format=png", 
+            "https://i.ibb.co/YNRnftP/pngfind-com-spring-png-535670-1.png",
+            "https://i.ibb.co/GtbG98V/yarn2.png"
+        ]
+    },
+    {
+        "name" : "styling",
+        "list" : [
+            "https://img.icons8.com/color/144/000000/css3.png",
+            "https://img.icons8.com/color/144/000000/material-ui.png",
+            "https://i.ibb.co/zx0Tt9M/bootstrap.png",
+            "https://i.ibb.co/zs6B3yR/sass.png"
+        ]
+    },
+    {
+        "name" : "databases", 
+        "list" : [
+            "https://img.icons8.com/?size=512&id=UFXRpPFebwa2&format=png", 
+            "https://i.ibb.co/ZVh01dm/rsz-mong2.png"
+        ]
+    },
+    {
+        "name" : "tools",
+        "list": [
+            "https://img.icons8.com/?size=512&id=48455&format=png", 
+            "https://img.icons8.com/?size=512&id=w1Gq29w4RQWL&format=png",
+            "https://img.icons8.com/?size=512&id=w1uD6vtDitjr&format=png", 
+            "https://img.icons8.com/?size=512&id=AZOZNnY73haj&format=png", 
+            "https://img.icons8.com/?size=512&id=iZTo5EQZtLKm&format=png",
+            "https://img.icons8.com/?size=512&id=20906&format=png"
+        ]
+    },
+    {
+        "name" : "operatingsystem", 
+        "list" : [
+            "https://img.icons8.com/?size=512&id=63208&format=png", 
+            "https://img.icons8.com/?size=512&id=17842&format=png",
+            "https://img.icons8.com/?size=512&id=122959&format=png",
+            "https://img.icons8.com/?size=512&id=17854&format=png", 
+            "https://img.icons8.com/?size=512&id=vCiwbOh7Uo7G&format=png"
+        ]
+    }
+]

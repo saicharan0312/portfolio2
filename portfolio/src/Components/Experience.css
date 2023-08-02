@@ -2,9 +2,6 @@
     background-color: hsl(180deg 4.35% 72.94%);
     margin-top: 30px;
     height: auto;
-    width: 84%;
-    margin-left: 7%;
-    margin-right: 7%;
     border-radius: 20px;
 }
 
@@ -18,16 +15,117 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 .experience-button:hover {
     padding: 17px;
     width: fit-content;
+    font-weight: 400;
     border-bottom: 1px solid gray;
-    color: blue;
+    color: #007bff;
+}
+
+.experience-button:focus {
+    padding: 17px;
+    width: fit-content;
+    border-bottom: 3px solid gray;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* .experience-text {
+    color: red;
+} */
+
+.experience-content {
+    padding: 15px;
+}
+
+.position-tech-company {
+    display: inline;
+}
+
+.position {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
 }
 
 
-.experience-text {
-    color: red;
+.link-company { 
+    color: teal;
+    text-decoration: underline;
+}
+
+.link-company:hover {
+    color:blue;
+    text-overflow: ellipsis;
+}
+
+.tech {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.company {
+    font-family: 'Alata', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.date {
+    color: #787c82;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-icon {
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+}
+
+.location {
+    color : #474c53;
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.loc-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+    background: #aea6a6;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.bullet-points {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.point-to-point {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+.bullet {
+    height: 15px;
+    width: 15px;
+    color: var(--primary-color);
+}
+
+.point {
+    margin-left: 10px;
+    color : #474c53;
+    font-family: 'Alata', sans-serif;
 }
