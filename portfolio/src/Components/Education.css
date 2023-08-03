@@ -73,7 +73,7 @@
     margin-left: 25px;
 }
 
-.course-point {
+/* .course-point {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
@@ -106,4 +106,27 @@
     height: 20px;
     width: 20px;
     margin-left: 10px;
+} */
+
+.bullet-points {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.point-to-point {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+.bullet {
+    height: 15px;
+    width: 15px;
+    color: var(--primary-color);
+}
+
+.point {
+    margin-left: 10px;
+    color : #474c53;
+    font-family: 'Alata', sans-serif;
 }
