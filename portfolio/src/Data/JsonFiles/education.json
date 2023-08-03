@@ -1,0 +1,70 @@
+[
+    {
+        "name" : "University of Central Florida",
+        "course" : "Computer Science",
+        "degree" : "Master's",
+        "date" : "Jan 2022 - Dec 2023",
+        "cgpa" : "3.97 out of 4.0",
+        "logo" : "https://1000logos.net/wp-content/uploads/2017/11/UCF-symbol.jpg",
+        "description": [
+            "COP5021 (Program Analysis) & CNT 4703C (Design and Implementation of Computer Communication Networks)",
+            "COT4210 (Discrete Structures II)",
+            "CNT 3004 – (Computer Network Concepts)",
+            "COT3100 Introduction to Discrete Computational Structures",
+            "COT4210 (Discrete Computational Structures II)",
+            "Track students with their coursework, projects, and assignments, Assist the professors in teaching all the labs to the students.",
+            "Assist the professor with lesson plans, instruct small groups of students, supervise students in the classroom."
+          ],
+          "coursework" : [
+            {
+                "subject" : "Computer Architecuture",
+                "project" : "Implemented how Cache works in Real Time",
+                "link" : "https://github.com/saicharan0312/Advanced-Computer-Architecture"
+            },
+            {
+                "subject" : "Machine Learning",
+                "project" : "Projects in ML",
+                "link" : "https://github.com/saicharan0312/machine_learning"
+            },
+            {
+                "subject" : "Machine Learning Methods for Biomedical Data",
+                "project" : "Breast Cancer detection using CNN",
+                "link" : "https://github.com/saicharan0312/Breast-Cancer-Detection"
+            }
+        ]
+    },
+    {
+        "name" : "Vasavi College of Engineering",
+        "course" : "Computer Science",
+        "degree" : "Bachelors of Engineering",
+        "date" : "Aug 2016 - Sept 2020",
+        "cgpa" : "7.99 out of 10",
+        "logo" : "https://vce.ac.in/img/vlogo.gif",
+        "description": [
+            "COP5021 (Program Analysis) & CNT 4703C (Design and Implementation of Computer Communication Networks)",
+            "COT4210 (Discrete Structures II)",
+            "CNT 3004 – (Computer Network Concepts)",
+            "COT3100 Introduction to Discrete Computational Structures",
+            "COT4210 (Discrete Computational Structures II)",
+            "Track students with their coursework, projects, and assignments, Assist the professors in teaching all the labs to the students.",
+            "Assist the professor with lesson plans, instruct small groups of students, supervise students in the classroom."
+        ],
+        "coursework" : [
+            {
+                "subject" : "Computer Architecuture",
+                "project" : "Implemented how Cache works in Real Time",
+                "link" : "https://github.com/saicharan0312/Advanced-Computer-Architecture"
+            },
+            {
+                "subject" : "Machine Learning",
+                "project" : "Projects in ML",
+                "link" : "https://github.com/saicharan0312/machine_learning"
+            },
+            {
+                "subject" : "Machine Learning Methods for Biomedical Data",
+                "project" : "Breast Cancer detection using CNN",
+                "link" : "https://github.com/saicharan0312/Breast-Cancer-Detection"
+            }
+        ]
+    }
+]

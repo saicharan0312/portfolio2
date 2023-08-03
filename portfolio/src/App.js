@@ -36,6 +36,7 @@ function App() {
         HandleClick = {HandleClick}
         pageName = {pageName}
       />
+      <div style={{ marginTop:"100px" }}></div>
     </div>
   );
 }
