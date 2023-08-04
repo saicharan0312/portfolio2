@@ -54,24 +54,26 @@
 
 .span-val{
     color: black;
-    font-family: monospace;
+    font-family: 'Alata', sans-serif;
     font-size: 30px;
     font-weight: "bold";
 }
 
 h1 {
     color: #3b638e;
-    font-family: monospace;
+    font-family: 'Alata', sans-serif;
     font-size: xx-large;
     font-weight: bold;
 }
 
 .p-width {
     width: fit-content;
+    margin-top: 15px;
 }
 
-image {
-    display: block;
+.image {
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -102,7 +104,7 @@ image {
     display: block;
 }
 
-@media screen and (min-width: 422px) {
+@media screen and (min-width: 620px) {
     /* .resume-icons {
         display: block;
     } */
@@ -119,7 +121,7 @@ image {
     }
   }
 
-  @media screen and (max-width: 423px) {
+  @media screen and (max-width: 620px) {
     /* .resume-icons {
         display: block;
     } */
@@ -130,6 +132,24 @@ image {
         display: inline;
         margin-top: 20px;
         justify-content: space-between;
+    }
+    .image {
+        margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .image {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .profile {
+        height: 250px;
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: top;
     }
   }
 

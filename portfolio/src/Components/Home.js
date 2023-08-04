@@ -9,8 +9,8 @@ function Home() {
         <span className='span-val'>Hi there! I'm</span>
         <br></br>
         <h1> Sai Charan Reddy </h1>
-        <br></br>
-        <p className='p-width'>A passionate Full Stack developer & Graduate Student who loves to build web & android apps and enhance products. I’m also a chess player and Street Photographer ! I live in Orlnado, FL</p>
+      
+        <p className='p-width'>Full Stack Software Engineer with experience in ReactJS, NodeJS, Express JS, Java, and Spring utilizing both NoSQL & SQL databases. Django Framework. C# MVC .NET Framework and AZ-900 - Microsoft Azure Fundamental certified. A productive developer who has a strong coding passion, as well as an enthusiastic learner who enjoys learning and picking up new technologies on a daily basis. proficient in  Java, Data Structures and Algorithms, Object Oriented Programming, Python, Computer Vision, Machine Learning, and Deep Learning. I'm also fully fascinated on the concept of creating software that helps people in the actual world solve their problems.</p>
         <div className='resume-icons'>
           <div>
             <button className='button-resume'>Resume</button>

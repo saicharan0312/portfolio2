@@ -33,15 +33,15 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("about")} className='each-button'>
-          {pageNow === "about" ?
+        <button onClick={() => props.HandleClick("projects")} className='each-button'>
+          {pageNow === "projects" ?
             <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">About</span>
+              <span class="nav__name">Projects</span>
             </a> :
             <a href="#home" class="nav__link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">About</span>
+              <span class="nav__name">Projects</span>
             </a>
           }
         </button>
