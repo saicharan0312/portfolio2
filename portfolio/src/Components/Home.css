@@ -32,13 +32,34 @@
   }
 }
 
-.introduction {
+.location-phone-email {
+    background-color: whitesmoke;
     padding: 25px;  
     width: 84%;
     margin-left: 8%;
+    margin-top: 30px;
     margin-right: 8%;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 12.5px;
+    justify-content: space-evenly;
+}
+
+.avatar {
+    height: 20px;
+    width: 20px;
+}
+
+.introduction {
+    background-color: whitesmoke;
+    padding: 25px;  
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 5px;
+    margin-right: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
     justify-content: space-evenly;
 }
 
@@ -46,9 +67,30 @@
     left:auto;
 }
 
+@media screen and (max-width : 520px) {
+    .phone-margin-520px {
+        margin-top : 20px;
+    }
+    .location-margin-520px {
+        margin-top: 20px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .intro-name {
       width: 60%;
+    }
+    .intro-div-photo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .start-date {
+        width: 50%;
+    }
+    .horizontal-line-two {
+        display: none;
     }
   }
 
@@ -62,13 +104,16 @@
 h1 {
     color: #3b638e;
     font-family: 'Alata', sans-serif;
-    font-size: xx-large;
+    font-size: 350%;
     font-weight: bold;
 }
 
 .p-width {
     width: fit-content;
     margin-top: 15px;
+    color: darkgray;
+    font-family: 'Alata', sans-serif;
+    font-weight: 200;
 }
 
 .image {
@@ -94,14 +139,12 @@ h1 {
     filter: drop-shadow(10px 10px 50px rgb(0, 0, 0));
 }
 
-/* .resume-icons {
-    width: 100%;
-    justify-content: space-evenly;
-    display: inline-flex;
-} */
-
 .resume-icons {
     display: block;
+}
+
+.resume-icon-width {
+    width: 100%;
 }
 
 @media screen and (min-width: 620px) {
@@ -138,9 +181,9 @@ h1 {
     }
   }
 
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1024px) {
     .image {
-        margin-top: 20px;
+        margin-top: 35px;
         width: 100%;
     }
     .profile {
@@ -150,6 +193,27 @@ h1 {
         border-radius: 20px;
         object-fit: cover;
         object-position: top;
+    }
+    .profile:hover {
+        height: 250px;
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: top;
+        border: 1px solid rgb(239, 235, 235);
+        filter: drop-shadow(10px 10px 50px rgb(0, 0, 0));
+    }
+    .open-to-start {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+    .start-date {
+        width: 100%;
+    }
+    .verticale-line {
+        display: none;
     }
   }
 
@@ -174,7 +238,105 @@ h1 {
     width: 50px;
     border-radius: 50%;
     padding: 6.5px;
-    border: 1px solid green;
+    border: 1px solid black;
 }
 
+.icon:hover {
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid black;
+    background-color: hsl(240deg 1.1% 82.16%);
+}
+
+.horizontal-line {
+    margin-top: 25px;
+    background: black;
+    color: black;
+    border-color: black;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.open-to-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start-date-h3 {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Alata', sans-serif;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet-points {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.point-to-point {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+.bullet {
+    height: 15px;
+    width: 15px;
+    color: var(--primary-color);
+}
+
+.point {
+    margin-left: 10px;
+    color : #474c53;
+    font-family: 'Alata', sans-serif;
+}
+
+.verticale-line {
+    
+    background: black;
+    color: black;
+    border-color: black;
+    height: 100%;
+    width: 0.3px;
+    
+}
+
+.horizontal-line-two {
+    margin-top: 25px;
+    background: black;
+    color: black;
+    border-color: black;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.label-name-email {
+    width: 100%;
+}
+
+.input-name-email {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.label-essay {
+    width: 100%;
+} 
+
+.input-essay {
+    width: 100%;
+}
 
