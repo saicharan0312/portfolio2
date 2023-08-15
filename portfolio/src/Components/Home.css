@@ -92,6 +92,9 @@
     .horizontal-line-two {
         display: none;
     }
+    .input-fields {
+        width: 40%;
+    }
   }
 
 .span-val{
@@ -215,6 +218,9 @@ h1 {
     .verticale-line {
         display: none;
     }
+    .input-fields {
+        width: 70%;
+    }
   }
 
 .button-resume {
@@ -320,16 +326,42 @@ h1 {
     margin-bottom: 25px;
 }
 
-.label-name-email {
+.label-name {
     width: 100%;
+    display: none;
 }
 
-.input-name-email {
+.label-email {
+    width: 100%;
+    display: none;
+}
+
+.input-name {
     padding: 3px;
     border: 1px solid black;
     border-radius: 2px;
     width: 100%;
     background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input-name:focus + .label-name{
+    background-color: red;
+}
+
+.input-email {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input-email:focus + .label-email{
+    background-color: red;
 }
 
 .label-essay {
