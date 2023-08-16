@@ -1,0 +1,100 @@
+[
+    {
+      "title": "Full Stack web application (Social Web Application)",
+      "imagen" : "InitialPage",
+      "content": "Social Networking portal which is used to post location photos on web portal to show their visits",
+      "gitHubUrl": "https://github.com/saicharan0312/frontend",
+      "liveUrl": null,
+      "description": [
+        "Developed a web application where a person post the places he/she visited. I have used React JS for front end, Mongo DB for banckend developemet, Express JS as middel ware and Node JS.",
+        "Created a high level Authentication with bcryptJS when Hashning the password inorder to hide the passoword from who have access to databases.",
+        "To Uplaod images, user must login and post, have access to it. where other user cannot have access to edit or delete it. images are not stored in DataBase but on server and address is stored in DB via Multer.",
+        "To check if the authenticate user is posting any image or editing is checked by jsonwebtoken."
+      ],
+      "techStack": ["React", "Nodejs", "Express", "Mongodb", "Visualstudio"]
+    },
+    {
+      "title": "Social  Applications Backend",
+      "imagen" : "PlacesPage",
+      "content": "Social Networking portal which is used to post location photos on web portal to show their visits",
+      "gitHubUrl": "https://github.com/saicharan0312/backend_Socialapp",
+      "liveUrl": null,
+      "description": [
+        "Developed a web application where a person post the places he/she visited. I have used React JS for front end, Mongo DB for banckend developemet, Express JS as middel ware and Node JS.",
+        "Created a high level Authentication with bcryptJS when Hashning the password inorder to hide the passoword from who have access to databases.",
+        "To Uplaod images, user must login and post, have access to it. where other user cannot have access to edit or delete it. images are not stored in DataBase but on server and address is stored in DB via Multer.",
+        "To check if the authenticate user is posting any image or editing is checked by jsonwebtoken.",
+        "view on map is used to show where the map is place is located, I have used mapBox"
+      ],
+      "techStack": ["React", "Nodejs", "Express", "Mongodb", "Visualstudio"]
+    },
+    {
+      "title": "Implementation of Cache memory Design",
+      "imagen" : "Cache",
+      "content": "How cache is stored in real time",
+      "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp1",
+      "liveUrl": null,
+      "description": [
+        "Implemented L1, L2 cache. SPEC 2000 benchmarks were used under the observation of Write Back, Write Allocate (WBWA) Policy. LRU (Least Recently Used), Pseudo LRU Policy, Optimal Policy were used.",
+        "Analysis for Performance Parameters like varying Cache Size, Associativity and Block size were analysed. The measure of performance was considered with respect to hit rate of the cache."
+      ],
+      "techStack": ["Java"]
+    },
+    {
+      "title": "Branch Predictor Simulator design (C++ and Verilog)",
+      "imagen" : "BranchPredictor",
+      "content": "How branch predictor is take or not taken time to time",
+      "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
+      "liveUrl": null,
+      "description": [
+        "Constructed a branch predictor simulator and used it to design branch predictors well suited to the SPECint95 benchmarks.",
+        "Smith N-Bit Branch Predictor, Bimodal branch predictor, Gshare branch predictor, Hybrid Predictor were designed and analysis of parameters like mispredictions, miss rate were done using graphs for different case of counter bit values."
+      ],
+      "techStack": ["Cplusplus"]
+    },
+    {
+      "title": "Web application for social responsibility",
+      "imagen" : "Cache",
+      "content": "Django full stack web application used for raising funds or social event",
+      "gitHubUrl": "https://github.com/saicharan0312/project",
+      "liveUrl": null,
+      "description": [
+        "Framework used are django, sqlite, django channels to introduce chat system in app, It is web based application which is intended for all corporates and individuals to colloborate for a social issue.",
+        "Every user have authetication to login into it and post if any of the donations, plantations, or any event is going to held.",
+        "Every one who is login into portal can see all the event can happen. have some authority to like, comment also.",
+        "Every one can chat with other any other person if they have specific user_id. They are done by django channels."
+      ],
+      "techStack": ["Django", "Livechat" ,"Python", "Sqlite"]
+    },
+    {
+      "title": "Drowsiness Detection using Machine learning Algorithm",
+      "imagen" : "Drowsiness",
+      "content": "Real time drowsiness detection using CNN when the camera is running all the time",
+      "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
+      "liveUrl": null,
+      "description": [
+        "Step -1. Take the image as input from a camera",
+        "Step -2. detect the face in the image and create a region of interest",
+        "Step 3. Detect the eyes from the ROI and mark the six coordinates",
+        "Step -4. Calculate the aspect ratio using the euclidean distance using formulae",
+        "Step -5. Calculate the score and if that is less than 0.25 eyes we closed and bring an alert in that",
+        "Step -6. Run this until the camera is off"
+      ],
+      "techStack": ["Python", "Digitalocean", "Pycharm"]
+    },
+    {
+      "title": "Breast Cancer detection using CNN",
+      "imagen" : "BreastCancer",
+      "content": "How cache is stored in real time",
+      "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
+      "liveUrl": null,
+      "description": [
+        "Firstly sort out the images into two categories—cancer and non-cancer—and verified that they were loaded.",
+        "Running through all of the images is how modeling and data splitting are done.",
+        "choose 30% of the patients as test subjects and the other 70% for development and training.",
+        "by flipping each image horizontally and vertically, the images were scaled to the appropriate input shape. The patches in my case are 50x50x3, so we could use that as our input shape.",
+        "With a pretrained CNN, I tried using transfer learning. This method extracts basic properties like edges from the initial layers of a pretrained CNN."
+      ],
+      "techStack": ["Python", "Pycharm"]
+    }
+  ]  

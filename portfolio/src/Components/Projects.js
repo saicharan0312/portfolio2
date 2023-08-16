@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "./Projects.css";
 
 function Projects() {
   return (
-    <div>
+    <div className='projects-container'>
       projects
     </div>
   )

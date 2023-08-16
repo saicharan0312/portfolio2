@@ -69,7 +69,7 @@ function ManiNavigation(props) {
             </a>
           }
         </button>
-        <button onClick={() => props.HandleClick("contactme")} className='each-button'>
+        {/* <button onClick={() => props.HandleClick("contactme")} className='each-button'>
           {pageNow === "contactme" ?
             <a href="#home" class="nav__link active-link link-nav">
               <i class='bx bx-home-alt nav__icon'></i>
@@ -80,7 +80,7 @@ function ManiNavigation(props) {
               <span class="nav__name">contactme</span>
             </a>
           }
-        </button>
+        </button> */}
       </div>
     </div>
   )
