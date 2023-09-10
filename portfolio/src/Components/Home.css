@@ -39,10 +39,19 @@
     margin-left: 8%;
     margin-top: 30px;
     margin-right: 8%;
-    display: flex;
-    flex-wrap: wrap;
     border-radius: 12.5px;
-    justify-content: space-evenly;
+}
+
+.image-profile {
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.icons-and-names {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
 }
 
 .avatar {
@@ -127,6 +136,10 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.icon-size {
+    background-color: green;
 }
 
 .profile {
@@ -325,7 +338,6 @@ h1 {
 }
 
 .verticale-line {
-    
     background: black;
     color: black;
     border-color: black;
@@ -344,49 +356,101 @@ h1 {
     margin-bottom: 25px;
 }
 
+/* .input-division {
+    margin-top: 20px;
+} */
+
 .label-name {
     width: 100%;
-    display: none;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .label-email {
     width: 100%;
-    display: none;
-}
-
-.input-name {
-    padding: 3px;
-    border: 1px solid black;
-    border-radius: 2px;
-    width: 100%;
-    background-color: white;
-    border: none;
-    border-bottom: 1px solid black;
-}
-
-.input-name:focus + .label-name{
-    background-color: red;
-}
-
-.input-email {
-    padding: 3px;
-    border: 1px solid black;
-    border-radius: 2px;
-    width: 100%;
-    background-color: white;
-    border: none;
-    border-bottom: 1px solid black;
-}
-
-.input-email:focus + .label-email{
-    background-color: red;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .label-essay {
     width: 100%;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
 } 
 
-.input-essay {
+.input-name {
+    padding: 3px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 2px;
     width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
 }
+
+.input-name:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+.input-email {
+    padding: 3px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input-email:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.input-essay {
+    padding: 3px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input-essay:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background-color: #3b638e;
+    width: 40%;
+    height: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 17.5px;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: #3b638e;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
 

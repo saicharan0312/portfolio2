@@ -36,7 +36,12 @@ const ProjectItem = (props) => {
             ))}
         </div>
         <div className='project-link-desc-buttons'>
-
+            <button>
+                githun
+            </button>
+            <button>
+                learn more
+            </button>
         </div>
     </div>
   )
