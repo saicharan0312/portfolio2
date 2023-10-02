@@ -18,9 +18,9 @@ function Home() {
           <img src={imageAdd1} alt='profile' className='avatar' />
         </div>
         <div className='icons-and-names'>
-          <div><AiOutlineMail className='icon-size' /> sa041328@ucf.edu</div>
-          <div><FaPhoneAlt className='icon-size' /> +1 3216559969</div>
-          <div><GrLocation className='icon-size' /> Orlando, Florda </div>
+          <div className='each-icon-div'><AiOutlineMail className='icon-size' /> sa041328@ucf.edu</div>
+          <div className='each-icon-div'><FaPhoneAlt className='icon-size' /> +1 3216559969</div>
+          <div className='each-icon-div'><GrLocation className='icon-size' /> Orlando, Florda </div>
         </div>
       </div>
       <div className='introduction'>
@@ -90,7 +90,7 @@ function Home() {
               </div>
               <div className='point-to-point'>
                 <img src='https://cdn.iconscout.com/icon/premium/png-512-thumb/direction-254-393852.png?f=avif&w=512' alt='bullet-icon' className='bullet' />
-                <span className='point'>point 1</span>
+                <span className='point'>Worked on only Backend with Java, SpringBoot</span>
               </div>
             </div>
           </div>

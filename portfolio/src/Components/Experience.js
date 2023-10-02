@@ -31,6 +31,7 @@ export default function Experience() {
         <div className='position-tech-company'>
           <h2 className='position'>{desc.title + "   "} </h2>
           <h2 className='tech'> {" - "  + desc.tech + " "} </h2>
+          &nbsp;&nbsp;
           <a href={desc.link} className='link-company'>
             <h4 className='company'> {desc.company}</h4>
           </a>
@@ -38,6 +39,14 @@ export default function Experience() {
         <div className='date-info-i'>
           <span className='date'>{desc.date}</span>
           <span className='info-icon'><img src='https://img.icons8.com/?size=512&id=77&format=png' alt='info' className='info-icon'/></span>
+        </div>
+        <div className='tech-stack'>
+          <h5 className='tech-stack-head'>Technology Stack</h5>
+          <div className='tech-stack-display'>
+            {desc.technologies.map((techs,index) =>(
+              <label className='each-tech'>{techs}</label>
+            ))}
+          </div>
         </div>
         <div className='location'> 
           <img src='https://img.icons8.com/?size=512&id=7880&format=png' alt='location-img' className='loc-icon'/>

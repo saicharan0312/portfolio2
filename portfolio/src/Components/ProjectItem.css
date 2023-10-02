@@ -27,6 +27,10 @@
 }
 
 .project-link-desc-buttons {
+    background-color: black;
     display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 10px;
     justify-content: space-around;
 }

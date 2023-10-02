@@ -20,6 +20,7 @@ const ProjectItem = (props) => {
        console.log(skills.skill)
     )
   return (
+    <>
     <div className='project-card'>
         <div className='project-image'>
             { props.title }
@@ -35,15 +36,16 @@ const ProjectItem = (props) => {
                 <img src={skills[skill]} alt='skill-name' className='project-skill' key={index}/>
             ))}
         </div>
-        <div className='project-link-desc-buttons'>
-            <button>
-                githun
-            </button>
-            <button>
-                learn more
-            </button>
-        </div>
     </div>
+    <div className='project-link-desc-buttons'>
+        <button>
+            github
+        </button>
+        <button>
+            learn more
+        </button>
+    </div>
+    </>
   )
 }
 
