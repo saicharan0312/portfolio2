@@ -7,83 +7,45 @@ function ManiNavigation(props) {
   return (
     <div className='outer-div'>
       <div className='inner-div'>
-        <button onClick={() => props.HandleClick("home")} className='botton-css each-button'>
-          {pageNow === "home" ?
-            <a href="#home" class="nav__link active-link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Home</span>
-            </a>
-            :
-            <a href="#home" class="nav__link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Home</span>
-            </a>
-          }
+
+        <button onClick={() => props.HandleClick("home")} className='each-button'>
+          <a className={pageNow === "home" ? "nav__link active-link" : "nav__link"}>
+            <i className='bx bx-home-alt nav__icon'></i>
+            <span className="nav__name">Home</span>
+          </a>
         </button>
+
         <button onClick={() => props.HandleClick("education")} className='each-button'>
-          {pageNow === "education" ?
-            <a href="#education" class="nav__link active-link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Education</span>
-            </a>
-            :
-            <a href="#education" class="nav__link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Education</span>
-            </a>
-          }
+          <a className={pageNow === "education" ? "nav__link active-link" : "nav__link"}>
+            <i className='bx bx-book nav__icon'></i>
+            <span className="nav__name">Education</span>
+          </a>
         </button>
-        <button onClick={() => props.HandleClick("projects")} className='each-button'>
-          {pageNow === "projects" ?
-            <a href="#home" class="nav__link active-link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Projects</span>
-            </a> :
-            <a href="#home" class="nav__link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Projects</span>
-            </a>
-          }
-        </button>
+
         <button onClick={() => props.HandleClick("skills")} className='each-button'>
-          {pageNow === "skills" ?
-            <a href="#home" class="nav__link active-link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Skills</span>
-            </a> :
-            <a href="#home" class="nav__link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">Skills</span>
-            </a>
-          }
+          <a className={pageNow === "skills" ? "nav__link active-link" : "nav__link"}>
+            <i className='bx bx-code nav__icon'></i>
+            <span className="nav__name">Skills</span>
+          </a>
         </button>
+
+        <button onClick={() => props.HandleClick("projects")} className='each-button'>
+          <a className={pageNow === "projects" ? "nav__link active-link" : "nav__link"}>
+            <i className='bx bx-briefcase-alt nav__icon'></i>
+            <span className="nav__name">Projects</span>
+          </a>
+        </button>
+
         <button onClick={() => props.HandleClick("experience")} className='each-button'>
-          {pageNow === "experience" ?
-            <a href="#home" class="nav__link active-link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">experience</span>
-            </a> :
-            <a href="#home" class="nav__link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">experience</span>
-            </a>
-          }
+          <a className={pageNow === "experience" ? "nav__link active-link" : "nav__link"}>
+            <i className='bx bx-briefcase nav__icon'></i>
+            <span className="nav__name">Experience</span>
+          </a>
         </button>
-        {/* <button onClick={() => props.HandleClick("contactme")} className='each-button'>
-          {pageNow === "contactme" ?
-            <a href="#home" class="nav__link active-link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">contactme</span>
-            </a> :
-            <a href="#home" class="nav__link link-nav">
-              <i class='bx bx-home-alt nav__icon'></i>
-              <span class="nav__name">contactme</span>
-            </a>
-          }
-        </button> */}
+
       </div>
     </div>
-  )
+  );
 }
 
-export default ManiNavigation
+export default ManiNavigation;
