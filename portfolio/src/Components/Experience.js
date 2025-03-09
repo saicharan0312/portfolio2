@@ -11,7 +11,7 @@ export default function Experience() {
     setDesc(description[0]);
   },[company])
 
-  const listOfExperienec = ["University of Central Florida", "phenom", "opentext"];
+  const listOfExperienec = ["amazon", "bofa", "University of Central Florida", "phenom", "opentext"];
   return (
     <div className='container'>
       <div className='header-buttons'>

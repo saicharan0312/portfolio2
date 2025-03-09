@@ -1,4 +1,51 @@
 [
+  {
+    "name" : "amazon",
+    "company" : "Amazon Alexa",
+    "title": "Software Dev Engineer",
+    "tech" : "Java",
+    "date" :"Aug 2024 - present",
+    "technologies" : ["Java", "AWS"],
+    "link" : "https://www.amazon.com/",
+    "location" : "Seattle, WA",
+    "organization": "Phenom People Pvt.Ltd",
+    "liveUrl": "https://www.phenom.com/",
+    "duration": "September 2020 - December 2021",
+    "description": [
+      "Developed services in Java to extract categories, devices, features, and actions from a Large Language Model (LLM)",
+      "The LLM generates requests in the form of GET or POST. For example, switch on the light would be a POST request, while get the brightness of the light would be a GET request.",
+      "Our team verifies whether the user is configured to interact with a specific device and whether the requested feature and action are enabled.",
+      "If the request is valid, it is forwarded downstream to execute the action; otherwise, it is sent back to the LLM with a nicely written statements to customers.", 
+      "Utilized Java and built a CDK pipeline to monitor failures, with a dashboard for visibility. High-severity failures trigger alarms. We also tracked metrics for each request to identify and rectify issues.",
+      "This pipeline ensures that a Pull Request (PR) is raised only after all unit tests, functional tests, and execution sequences pass successfully.",
+      "Our team conducts code reviews where everyone is involved to ensure a comprehensive understanding of the end-to-end flow of our services."
+    ],
+    "logo": "PHENOMPEOPLE_LOGO"
+  },
+    {
+      "name" : "bofa",
+      "company" : "Bank of America",
+      "title": "Software Engineer, Hadoop Developer",
+      "tech" : "Hadoop, HIVE, PySpark",
+      "date" :"Feb 2024 - Aug 2024",
+      "technologies" : ["ReactJs", "ExpressJs", "VueJs"],
+      "link" : "https://www.ucf.edu/",
+      "location" : "Hyderebad, India",
+      "organization": "Phenom People Pvt.Ltd",
+      "liveUrl": "https://www.phenom.com/",
+      "duration": "September 2020 - December 2021",
+      "description": [
+        "Designed, developed and modified rich UI of 12+ custom components utilizing React JS, HTML/SCSS , React Redux, React Thunks.",
+        "Developed and maintained 30+ REST APIs writing documentation using openAPI specification and Postman app to verify while developing.",
+        "Used 11+ node package manager for backend development such as Express, mongoose, mongo.js, body-parser, brcypt.js and validation.",
+        "Analyzed project flow, data usage, and work processes, examine 100% of problem areas and fixed bugs.",
+        "Executed & written 200+ unit tests, test Driven Deployments (TDD) to ensure 100% of code with SDLC was without bugs.",
+        "Planned, tracked and managed deliverables on 50+ short-term long-term sprints and deployments.",
+        "Suggested 5+ improvements to product design, functionally and optimize code by 10% as informed by client's request.",
+        "Development of company´s internal CI system, providing a comprehensive API for CI/CD."
+      ],
+      "logo": "PHENOMPEOPLE_LOGO"
+    },
     {
       "name" : "University of Central Florida",
       "company" : "University of Central Florida",
